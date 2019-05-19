@@ -12,3 +12,18 @@ To implement the analysis and model summarized above the following libraries wer
 -numpy
 -sklearn
 -dask
+
+Description of Python notebooks:
+1) 1_EDA.ipynb: Notebook with preliminary data analysis.
+2) 2_FeatureEngineering.ipynb: Notebook with different feature engineering attempts (feature creation, selection and reduction)
+3) 3_ParameterTuning+FinalModel.ipynb: Final model GridSearch for tuning.
+
+
+Description of Python scripts:
+1) utils.py: Basic functions used to train models with different inputs (feature engineerig functions)
+2) preprocessing.py: Helper functions for preprocessing of datasets.
+3) feature_creation.py: Helper functions for feature engineering and creation.
+4) feature_selection.py: Helper functions for feature selection options and techniques.
+5) feature_reduction.py: Helper functions for feature reduction options.
+
+All notebooks/Python scripts have been developed using Python 3.7.
