@@ -92,6 +92,10 @@ def deep_features(data):
 
     Currently, the only group is by season.
 
+    This is the onyl data manipulation step that is not done using Dask
+    therefore the dataset is converted into a Pandas dataframe before
+    the DFS is performed.
+
     :param data: a Dask dataframe where each row is an hour
     :return: a Dask dataframe containing the new column
     """
